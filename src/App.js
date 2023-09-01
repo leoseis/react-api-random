@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
-import MyCard from "./MyCard";
+import MyCard from "./card";
 
 const App = () => {
   const [userData, setUserData] = useState({});
